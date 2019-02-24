@@ -51,6 +51,13 @@ h2
     text-align: center;
 }
 
+#container img
+{
+    height: 10vh;
+    margin: 0 2vh;
+    vertical-align: bottom;
+}
+
 /* Override Vuetify dark theme background color */
 .theme--dark
 {
