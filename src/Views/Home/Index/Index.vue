@@ -33,7 +33,7 @@
     {
         display: inline-block;
         text-decoration: none;
-        color: #577d8b;
+        color: #577d8b !important;
         border: .33vh solid #577d8b;
         padding: 1vh 2vh;
         transition: background-color .125s 0s ease-in-out, color .125s 0s ease-in-out;
