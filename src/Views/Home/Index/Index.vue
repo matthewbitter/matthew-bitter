@@ -6,7 +6,7 @@
             <a href="//github.com/matthewbitter" title="GitHub">
                 <img src="@/Assets/GitHub.png" />
             </a>
-            <a class="button" href="MatthewBitterResume.docx" title="Download Resume">Resume</a>
+            <a class="button" href="MatthewBitterResume.docx" title="Download Résumé">Résumé</a>
         </div>
     </div>
 </template>
