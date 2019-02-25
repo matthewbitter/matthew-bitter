@@ -18,22 +18,14 @@ h2
     text-shadow: 0 0.5vh 0 rgba(116, 132, 79, 0.2);
 }
 
-.button
+hr
 {
-    display: inline-block;
-    text-decoration: none;
-    color: #577d8b;
-    border: .33vh solid #577d8b;
-    padding: 1vh 2vh;
-    transition: background-color .125s 0s ease-in-out, color .125s 0s ease-in-out;
-    margin-top: 2vh;
-    box-shadow: 0 0.5vh 0 0 rgba(87, 125, 139, 0.2)
-}
-
-.button:hover
-{
+    width: 75vh;
+    margin: 3vh auto;
     background-color: #577d8b;
-    color: #111;
+    height: 0.25vh;
+    border: 0;
+    box-shadow: 0 0.25vh 0 0 rgba(87, 125, 139, 0.2);
 }
 
 #container
