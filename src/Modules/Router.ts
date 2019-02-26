@@ -18,6 +18,9 @@ const LoadView = (path: string) => () => import(`@/Views/${path}` /* webpackChun
 
 const routes: RouteConfig[] = [
 
+    // Not Found
+    { path: "*", component: LoadView("Shared/NotFound/NotFound.vue") },
+
     // Home
     { path: "/", component: LoadView("Home/Index/Index.vue") }
 
