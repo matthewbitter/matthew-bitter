@@ -2,15 +2,15 @@
     <div id="container">
         <div>
             <h1>MATTHEW BITTER</h1>
-            <h2>WEB & GAME DEVELOPER</h2>
+            <h2>WEB &amp; GAME DEVELOPER</h2>
             <hr />
-            <a href="//github.com/matthewbitter" title="GitHub">
+            <a href="//github.com/matthewbitter">
                 <img src="@/Assets/GitHub.png" alt="GitHub" />
             </a>
-            <a href="//www.linkedin.com/in/matthewbitterdeveloper/" title="LinkedIn ">
+            <a href="//www.linkedin.com/in/matthewbitterdeveloper/">
                 <img src="@/Assets/LinkedIn.png" alt="LinkedIn" />
             </a>
-            <a href="MatthewBitterResume.docx" title="Resume">
+            <a href="MatthewBitterResume.docx">
                 <img src="@/Assets/Resume.png" alt="Resume" />
             </a>
         </div>
