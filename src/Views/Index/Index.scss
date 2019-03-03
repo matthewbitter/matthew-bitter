@@ -1,4 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+//---------------------------------------------------------------------------
+// Font face
+//---------------------------------------------------------------------------
+@font-face
+{
+    font-family: 'Oswald';
+    font-display: swap;
+    src: url('/Oswald.woff2') format('woff2');
+}
+
+
+//---------------------------------------------------------------------------
+// Properties
+//---------------------------------------------------------------------------
+$Red: #a3383c;
+$RedShadow: rgba(163, 56, 60, 0.2);
+
+$Green: #74844f;
+$GreenShadow: rgba(116, 132, 79, 0.2);
+
+$Blue: #577d8b;
+$BlueShadow: rgba(87, 125, 139, 0.2);
+
+
+//---------------------------------------------------------------------------
+// Element selectors
+//---------------------------------------------------------------------------
 
 h1, h2
 {
@@ -8,25 +34,29 @@ h1, h2
 
 h1
 {
-    color: #a3383c;
-    text-shadow: 0 0.5vh 0 rgba(163, 56, 60, 0.2);
+    color: $Red;
+    text-shadow: 0 0.5vh 0 $RedShadow;
 }
 
 h2
 {
-    color: #74844f;
-    text-shadow: 0 0.5vh 0 rgba(116, 132, 79, 0.2);
+    color: $Green;
+    text-shadow: 0 0.5vh 0 $GreenShadow;
 }
 
 hr
 {
     width: 50vh;
     margin: 3vh auto;
-    background-color: #577d8b;
+    background-color: $Blue;
     height: 0.25vh;
     border: 0;
-    box-shadow: 0 0.25vh 0 0 rgba(87, 125, 139, 0.2);
+    box-shadow: 0 0.25vh 0 0 $BlueShadow;
 }
+
+//---------------------------------------------------------------------------
+// Id selectors
+//---------------------------------------------------------------------------
 
 #container
 {
@@ -34,20 +64,20 @@ hr
     width: 100%;
     height: 100%;
 
-    font-family: 'Oswald', sans-serif;
     font-size: 5vh;
-}
 
-#container > div
-{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-}
+    div
+    {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
 
-#container img
-{
-    height: 10vh;
-    margin: 0 2vh;
-    vertical-align: bottom;
+    img
+    {
+        height: 10vh;
+        margin: 0 2vh;
+        vertical-align: bottom;
+    }
+
 }
